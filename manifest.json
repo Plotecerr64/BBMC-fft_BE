@@ -1,17 +1,26 @@
 {
-  	"format_version": 2,
- 	"header" : {
-  		"name" : "pack.name",
-   		"description" : "pack.description",
-   		"uuid" : "3c9b710f-ace6-4a21-bab9-dea8e0b7059b",
-   		"version": [1, 1, 2],
-        "min_engine_version": [1, 17, 0]
+   "format_version" : 2,
+   "header" : {
+      "description" : "The bare bones of Minecraft textures",
+      "name" : "Bare Bones 1.1.1 MC 1.16.2",
+      "uuid" : "3c9b710f-ace6-4a21-bab9-dea8e0b7059a",
+        "version": [
+            1,
+            16,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            16,
+            0
+        ]
     },
- 	"modules" : [
- 		{
-			"version" : [ 1, 1, 2 ],
-  			"type" : "resources",
-  			"uuid" : "0e1f2b4a-f072-468b-89db-878351038200"
-    	}
- 	]
+   "modules" : [
+      {
+         "description" : "",
+         "type" : "resources",
+         "uuid" : "0e1f2b4a-f072-468b-89cb-878351038200",
+         "version" : [ 1, 0, 0 ]
+      }
+   ]
 }
